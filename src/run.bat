@@ -1,0 +1,6 @@
+@echo off
+echo Compiling Survey application...
+javac -cp ".;../lib/*" Survey.java Database.java
+echo Running Survey application...
+java -cp ".;../lib/*" Survey
+pause
